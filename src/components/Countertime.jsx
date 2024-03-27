@@ -85,7 +85,6 @@ class Countertime extends Component {
                 </p>
               </div>
             </div>
-            <div></div>
           </div>
         </div>
       </>
