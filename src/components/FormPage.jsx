@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import FormValiEmail from "./FormValiEmail";
 
 const FormPage = () => {
   const [formData, setFormData] = useState({
@@ -162,6 +163,7 @@ const FormPage = () => {
             />
           </form>
         </div>
+        {/* -----------------------------form validition-------------------- */}
         <div className="py-[80px] w-full container mx-auto px-3 xl:max-w-[1120px]">
           <h2 className="text-[60px] font-normal text-lime-950 text-center pb-5">
             FORM VALIDATION
@@ -266,6 +268,10 @@ const FormPage = () => {
               <button onClick={handlePopupClose}>Close</button>
             </div>
           )}
+        </div>
+        {/* -------------------------form validition with email js--------------------- */}
+        <div className="w-full container mx-auto px-3 xl:max-w-[1120px]">
+          <FormValiEmail />
         </div>
       </div>
     </>

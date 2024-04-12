@@ -1,19 +1,16 @@
 import './App.css';
-// import Homepage from './pages/Homepage';
 import Header from "./components/Header";
 import ModalSec from "./components/ModalSec";
 import { Route, Routes } from "react-router-dom";
 import FormPage from "./components/FormPage";
 import AccSec from "./components/AccSec";
 import Navbar from "./components/Navbar";
-// import SlickSlider from "../components/SlickSlider";
 import ReducerCounter from "./components/ReducerCounter";
 import SliderSec from "./pages/SliderSec";
 
 function App() {
   return (
     <div>
-      {/* <Homepage /> */}
       <div>
         <Navbar />
         <Routes>
