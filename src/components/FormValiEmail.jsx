@@ -85,22 +85,6 @@ const FormValiEmail = () => {
       confirmPassword: "",
     });
   };
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   emailjs
-  //     .sendForm("service_nlvjld9", "template_l7jjvqj", form.current, {
-  //       publicKey: "qxtBsAqACVCOH2sxs",
-  //     })
-  //     .then(
-  //       () => {
-  //         console.log("SUCCESS!");
-  //       },
-  //       (error) => {
-  //         console.log("FAILED...", error.text);
-  //       }
-  //     );
-  // };
   return (
     <>
       <div className="pb-[80px] w-full container mx-auto px-3 xl:max-w-[1120px]">
