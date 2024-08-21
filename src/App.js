@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Header from "./components/Header";
 import ModalSec from "./components/ModalSec";
 import { Route, Routes } from "react-router-dom";

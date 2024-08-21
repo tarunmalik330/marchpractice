@@ -8,12 +8,12 @@ const Nav = () => {
     <div>
       <div className="container mx-auto xl:max-w-[1164px] xl:px-3 px-6">
         <div className="flex items-center justify-between py-[24px]">
-          <a
-            href=""
+          <Link
+            to="/"
             className="text-[40px] font-bold text-[#00972A] leading-[130%] ff_k2d"
           >
             Logo
-          </a>
+          </Link>
           <ul
             className={`${
               nav

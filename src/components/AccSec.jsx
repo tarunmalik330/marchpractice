@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Accordionbtn } from "./Iconimg";
 
 const AccSec = () => {
-  const [openAccordion, setOpenAccordion] = useState(true);
+  const [openAccordion, setOpenAccordion] = useState(true); 
   const toggleAccordion = (index) => {
     setOpenAccordion(openAccordion === index ? null : index);
   };
