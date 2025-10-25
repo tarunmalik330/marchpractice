@@ -52,7 +52,7 @@ const SimpleForm = () => {
         </div>
         <div className="mx-auto">
           <ReCAPTCHA
-            sitekey="6LeWlPYrAAAAAMi3VVrvhMiXCBKDEEcYGvk9w1fB"
+            sitekey="6LdfmvYrAAAAAC6NstYJLk5BKNtaTJ4mPKRFWvrx"
             onChange={() => setVerified(true)}
           />
         </div>
