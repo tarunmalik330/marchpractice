@@ -13,7 +13,7 @@ const SimpleForm = () => {
   };
   return (
     <div>
-      <form className="flex flex-col gap-5" action="">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-5" action="">
         <div>
           <label className="text-xl">Name:</label>
           <input
@@ -52,7 +52,7 @@ const SimpleForm = () => {
         </div>
         <div className="mx-auto">
           <ReCAPTCHA
-            sitekey="6LdgffYrAAAAALtcvda0tsxAV1kfZLxMDwD-_2Dw"
+            sitekey="6LeWlPYrAAAAAMi3VVrvhMiXCBKDEEcYGvk9w1fB"
             onChange={() => setVerified(true)}
           />
         </div>
