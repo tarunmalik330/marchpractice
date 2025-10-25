@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import FormValiEmail from "./FormValiEmail";
+import SimpleForm from "./SimpleForm";
 
 const FormPage = () => {
   const [formData, setFormData] = useState({
@@ -272,6 +273,13 @@ const FormPage = () => {
         {/* -------------------------form validition with email js--------------------- */}
         <div className="w-full container mx-auto px-3 xl:max-w-[1120px]">
           <FormValiEmail />
+        </div>
+        {/* ------------------------ReCAPTCHA Form------------------------ */}
+        <div className="py-[80px] w-full container mx-auto px-3 xl:max-w-[1120px]">
+          <h2 className="text-[60px] font-normal text-lime-950 text-center pb-5">
+            FORM
+          </h2>
+          <SimpleForm />
         </div>
       </div>
     </>
